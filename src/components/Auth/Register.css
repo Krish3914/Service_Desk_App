@@ -1,0 +1,51 @@
+/* src/components/Auth/Register.css */
+.register-container {
+    background: linear-gradient(to bottom, #6699ff 0%, #cc00ff 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register-form {
+    /* background-color: #fff; */
+    background: linear-gradient(to bottom, #6600ff 0%, #cc33ff 100%);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(195, 32, 32, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.register-form h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #172e87;
+    color: #e6e3e3;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #197237;
+}

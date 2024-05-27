@@ -1,0 +1,47 @@
+/* src/components/Tickets/CreateTicket.css */
+.create-ticket-container {
+    /* margin-top: 100px; */
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #f9f9f9; */
+    background: linear-gradient(to bottom, #0033cc 0%, #ffffff 100%);
+    /* background-color: red; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    /* margin-top: 100px; */
+    /* background-color: aqua; */
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    background-color: #71173a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #365414;
+}
